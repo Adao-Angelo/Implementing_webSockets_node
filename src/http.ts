@@ -6,6 +6,7 @@ import path from "path"
 const app = express();
 app.use(express.static(path.join(__dirname , ".."  ,"views" )))
 const serverHttp = http.createServer(app);
-const wss = new Server(serverHttp);
+const io = new Server(serverHttp);
 
-export { wss , serverHttp };
+
+export { io , serverHttp  , app};
