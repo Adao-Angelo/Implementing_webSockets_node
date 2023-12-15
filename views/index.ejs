@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Socket IO | Node</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Poppins';
+}
+    </style>
+  </head>
+  <body>
+    <p>the render page</p>
+
+    <form action="./pages/chat.ejs" method="post">
+        <div class="container">
+            <div class="row">
+        <select id="select_room" name="select_room">
+         <option value="-1">Select a room</option>
+         <option value="node">Node</option>
+         <option value="php">php</option>
+        </select>
+            </div>
+            <div class="inputs">
+                <input type="text" name="name" id="id" placeholder="your name">
+                <input type="submit" value="Logar">
+            </div>
+       
+
+
+        </div>
+     
+    </form>
+  </body>
+</html>
