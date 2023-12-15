@@ -8,4 +8,5 @@ const io = new Server(serverHttp);
 
 const port = 2500;
 
-export { io , serverHttp }
+export { io , serverHttp , app }
+app.set('view engine', 'ejs');
