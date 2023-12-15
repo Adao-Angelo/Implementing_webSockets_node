@@ -19,14 +19,18 @@ class App {
         this.http.listen(3000 ,() => console.log("server runimg"))
     }
     listenSocket(){
-        console.log()
         this.io.on("connection", (socket)=>{
             console.log("user socket: ", socket.id)
+            
+            socket.on("message", (msg)=>{
+                this.io.emit("message", (msg),)
+            })
         })
     }
     setUpRoutes(){
         this.app.get("/", (req , res)=>{
             res.sendFile(__dirname+"/index.html")
+            this.listenSocket()
         })
     }
 }
