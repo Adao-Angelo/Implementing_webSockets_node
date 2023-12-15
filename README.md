@@ -11,3 +11,5 @@ this is a basic project with webSockect for the purpose of creating chat rooms w
 
 ## How to initialize the project ?
     npm run dev
+
+https://www.figma.com/file/GrboAq0IJeBjYm7mOis6Vd/Chat-App---Free-Template-(Community)?type=design&node-id=1-2&mode=design&t=p7KgMT8NizTdUcWI-0
