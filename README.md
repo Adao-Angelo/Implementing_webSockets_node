@@ -5,11 +5,15 @@ this is a basic project with webSockect for the purpose of creating chat rooms w
  ## Acquired knowledge ? 
   WebSockets in Practice 
 
-
 ## How to install dependencies ?
     npm install
 
 ## How to initialize the project ?
     npm run dev
 
-https://www.figma.com/file/GrboAq0IJeBjYm7mOis6Vd/Chat-App---Free-Template-(Community)?type=design&node-id=1-2&mode=design&t=p7KgMT8NizTdUcWI-0
+
+## Open 
+http://localhost:3000/
+
+
+<img src="https://www.nilebits.com/wp-content/uploads/2023/07/Websocket-Handshaking-Explained-Understanding-the-Key-to-Real-Time-Communication.png">
