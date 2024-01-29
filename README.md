@@ -11,7 +11,6 @@ this is a basic project with webSockect for the purpose of creating chat rooms w
 ## How to initialize the project ?
     npm run dev
 
-
 ## Open 
 http://localhost:3000/
 
